@@ -47,13 +47,13 @@ A seguir, a documentação visual do provisionamento do Banco de Dados no Portal
 
 ---
 
-## 👉 Próximo Passo: O Projeto Real
+## 👉 Próximo Passo: A Arquitetura Completa
+Este banco de dados é a fundação de dados segura para uma arquitetura de nuvem moderna. Para ver como este serviço PaaS foi integrado a uma aplicação real, acesse o repositório principal do projeto.
 
-A criação deste banco de dados foi a camada de persistência. Para ver como este serviço PaaS foi de fato utilizado para:
-* Armazenar os dados de uma **API .NET containerizada**.
-* Conectar-se de forma segura a partir de uma **VM (IaaS)** dentro da mesma rede privada.
-* Suportar uma **aplicação completa e funcional**.
+Lá, você verá como este banco de dados foi usado para:
 
-**Visite o repositório principal do projeto!**
+* ✅ Armazenar os dados de uma API .NET 9 rodando em um contêiner.
+* ✅ Ser consumido por uma aplicação serverless no **`Azure Container Apps`**, eliminando a necessidade de gerenciar máquinas virtuais.
+* ✅ Manter a segurança máxima, aceitando conexões apenas de dentro da mesma rede privada através da Integração VNet do ACA.
 
-### [➡️ Ver o Projeto Completo e a API em Produção](https://github.com/GustavoHerreira/todoapp-trilha-dotnet-api-desafio)
+### [➡️ Confira o projeto completo aqui: API de Gerenciamento de Tarefas (Repositório Principal)](https://github.com/GustavoHerreira/task-management-api)
